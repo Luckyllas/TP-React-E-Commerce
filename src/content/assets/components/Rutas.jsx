@@ -5,7 +5,6 @@ import Header from "../page/Header";
 import Footer from "../page/Footer";
 //import Contacto from "../Page/Contacto";
 
-
 const Rutas = () => {
   return (
     <Router>
