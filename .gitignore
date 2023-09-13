@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+TPReactGrupo\src\content\assets\image\*.jpg
+TPReactGrupo\src\content\assets\image\*.png
