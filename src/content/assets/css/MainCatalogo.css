@@ -18,7 +18,7 @@
   text-align: center;
   align-items: center;
   border: 0;
-  padding-bottom: 20px;   
+  padding-bottom: 20px;
 }
 
 .card-image {
@@ -41,7 +41,6 @@
 .card-data-precio {
   color: rgb(160, 168, 116);
   font-size: 20px;
-  
 }
 
 figcaption ul li {

@@ -3,13 +3,13 @@ import React from "react";
 import { catalogo } from "../data/Catalogo";
 import { Fragment } from "react";
 import "../css/MainCatalogo.css";
-
-
+import TituloCatalogo from "../components/TituloCatalogo";
 
 const MainCatalogo = () => {
   return (
     <main>
       <section className="conteiner-fluid">
+      <TituloCatalogo />
         <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
           {catalogo.map((item) => (
             <Fragment key={item.id}>
@@ -23,7 +23,9 @@ const MainCatalogo = () => {
                   <figcaption>
                     <ul className="card-data">
                       <li>
-                        <span className="card-data-titulo">{item.etiqueta}</span>
+                        <span className="card-data-titulo">
+                          {item.etiqueta}
+                        </span>
                       </li>
                       <li>
                         <span className="card-data-precio">${item.precio}</span>

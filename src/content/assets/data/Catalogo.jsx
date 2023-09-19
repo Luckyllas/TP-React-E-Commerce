@@ -51,6 +51,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "tinto",
       precio: '18.000',
+      destacado : false,
     },
     {
       id: 2,
@@ -61,6 +62,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "tinto",
       precio: '17.900',
+      destacado : true,
     },
     {
       id: 3,
@@ -71,6 +73,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "tinto",
       precio: '11.400',
+      destacado : false,
     },
     {
       id: 4,
@@ -81,6 +84,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "tinto",
       precio: '18.200',
+      destacado : false,
     },
     {
       id: 5,
@@ -91,6 +95,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Blanco",
       precio: '11.600',
+      destacado : false,
     },
     {
       id: 6,
@@ -101,6 +106,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Espumante",
       precio: '22.570',
+      destacado : false,
     },
     {
       id: 7,
@@ -111,6 +117,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Espumante",
       precio: '7.710',
+      destacado : false,
     },
     {
       id: 8,
@@ -121,6 +128,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Espumante",
       precio: '8.830',
+      destacado : false,
     },
     {
       id: 9,
@@ -131,6 +139,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Tinto",
       precio: '42.850',
+      destacado : false,
     },
     {
       id: 10,
@@ -141,6 +150,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Tinto",
       precio: '3.360',
+      destacado : false,
     },
     {
       id: 11,
@@ -151,6 +161,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Tinto",
       precio: '5.700',
+      destacado : false,
     },
     {
       id: 12,
@@ -161,6 +172,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Tinto",
       precio: '11.940',
+      destacado : false,
     },
     {
       id: 13,
@@ -171,6 +183,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Blanco",
       precio: '12.900',
+      destacado : false,
     },
     {
       id: 14,
@@ -181,6 +194,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "tinto",
       precio: '12.100',
+      destacado : true,
     },
     {
       id: 15,
@@ -191,6 +205,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Tinto",
       precio: '22.700',
+      destacado : false,
     },
     {
       id: 16,
@@ -201,6 +216,7 @@ export const catalogo = [
       region : "Mendoza",
       tipo : "Tinto",
       precio: '18.400',
+      destacado : false,
     },
     {
         id: 17,
@@ -211,6 +227,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '30.000',
+        destacado : false,
       },
       {
         id: 18,
@@ -221,6 +238,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '22.400',
+        destacado : false,
       },
       {
         id: 19,
@@ -231,6 +249,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '24.400',
+        destacado : true,
       },
       {
         id: 20,
@@ -241,6 +260,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '14.100',
+        destacado : false,
       },
       {
         id: 21,
@@ -251,6 +271,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '14.270',
+        destacado : false,
       },
       {
         id: 22,
@@ -261,6 +282,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",      
         precio: '12.175',
+        destacado : false,
       },
       {
         id: 23,
@@ -271,6 +293,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",    
         precio: '53.500',
+        destacado : false,
       },
       {
         id: 24,
@@ -281,6 +304,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Blanco", 
         precio: '11.900',
+        destacado : false,
       },
       {
         id: 25,
@@ -291,6 +315,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '10.900',
+        destacado : true,
       },
       {
         id: 26,
@@ -301,6 +326,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '32.100',
+        destacado : false,
       },
       {
         id: 27,
@@ -311,6 +337,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '38.000',
+        destacado : false,
       },
       {
         id: 28,
@@ -321,6 +348,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '10.500',
+        destacado : false,
       },
       {
         id: 29,
@@ -331,6 +359,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Espumante",
         precio: '18.500',
+        destacado : true,
       },
       {
         id: 30,
@@ -341,6 +370,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '4.100',
+        destacado : false,
       },
       {
         id: 31,
@@ -351,6 +381,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '4.100',
+        destacado : true,
       },
       {
         id: 32,
@@ -361,6 +392,7 @@ export const catalogo = [
         region : "Mendoza",
         tipo : "Tinto",
         precio: '40.200',
+        destacado : false,
       },
       
   ];

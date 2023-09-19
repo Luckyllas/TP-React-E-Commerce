@@ -4,12 +4,13 @@ import Main from "../page/Main";
 import Header from "../page/Header";
 import Footer from "../page/Footer";
 import MainCatalogo from "../page/MainCatalogo";
+import TituloCatalogo from "./TituloCatalogo";
 
 
 const Rutas = () => {
   return (
     <Router>
-      <Header />
+      <Header />      
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/Catalogo" element={<MainCatalogo />} />
