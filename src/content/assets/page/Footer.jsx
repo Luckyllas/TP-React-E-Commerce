@@ -13,7 +13,7 @@ const Footer = () => {
                 <li><a href='#'>Item3</a></li>
                 <li><a href='#'>Item4</a></li>
             </ul>
-            <h3 id='contact'>Contact Us</h3>
+            <h3 id='contact'><a href='#'>Contact Us</a></h3>
         </footer>
     );
 }
