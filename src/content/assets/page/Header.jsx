@@ -14,10 +14,10 @@ const Header = () => {
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
-      <div> {estado}
+      <div>
         <nav>
           <button className="abrir-navbar" id="abrir" onClick={activarNavbarHandler}>Abrir</button>
-          <div className="navbar-container" id="navbar-container">
+          <div className="navbar-container" style={{opacity: estado==="Activado"? 1 : 0, visibility: estado==="Activado"? "visible" : "hidden"}} id="navbar-container">
             <button className="cerrar-navbar" id="cerrar" onClick={desactivarNavbarHandler}>Cerrar</button>
             <div className="left-navbar">
               <div>Inicio</div>
