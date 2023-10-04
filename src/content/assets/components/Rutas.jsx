@@ -5,18 +5,20 @@ import Header from "../page/Header";
 import Footer from "../page/Footer";
 import MainCatalogo from "../page/MainCatalogo";
 import TituloCatalogo from "./TituloCatalogo";
+import StateContador from "../context/StateContador";
 
 
 const Rutas = () => {
   return (
     <Router>
+      <StateContador>
       <Header />      
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/Catalogo" element={<MainCatalogo />} />
-       
+        <Route path="/Catalogo" element={<MainCatalogo />} />       
       </Routes>
       <Footer />
+      </StateContador>
     </Router>
   );
 };

@@ -1,11 +1,11 @@
 import React from "react";
-
 import { catalogo } from "../data/Catalogo";
 import { Fragment } from "react";
 import "../css/MainCatalogo.css";
 import TituloCatalogo from "../components/TituloCatalogo";
 
 const MainCatalogo = () => {
+  
   return (
     <main>
       <section className="conteiner-fluid">

@@ -1,8 +1,6 @@
 import React from 'react';
-import '../css/Catalogo.css';
 
-
-const Catalogo = () => {
+const Carrito = () => {
     return (
         <div>
             
@@ -10,4 +8,4 @@ const Catalogo = () => {
     );
 }
 
-export default Catalogo;
+export default Carrito;
