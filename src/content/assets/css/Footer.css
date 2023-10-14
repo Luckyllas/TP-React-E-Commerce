@@ -1,3 +1,4 @@
+/* 
 #pie {
     display: flex;
     margin: .3rem;
@@ -28,16 +29,44 @@
 
 #contact {
     /* background-color: rgb(120, 219, 219); */
-    margin: auto;
+    /* margin: auto;
     margin-right: 10px;
-}
+} */
 
-#contact>a {
+/* #contact>a {
     text-decoration: none;
     color: black;
+} */
+
+/* #menuPie, #contact {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px; */ 
+/* ======= */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Mooli&display=swap');
+
+* {
+    color: #5f0019;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
 }
 
-#menuPie, #contact {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+.tarjeta {
+    display:inline-block;
+    align-items: center;
+    padding: 0 2rem;
+    border-left: 1px solid rgba(95, 0, 25, .4);
+    /* background-color: aqua; */
+    height: 100px;
+}
+
+.imagenes {
+    display: inline-block;
+    width: 3rem;
+}
+
+
+.tituloUno {
+    font-family: serif;
+/* >>>>>>> Stashed changes */
 }
