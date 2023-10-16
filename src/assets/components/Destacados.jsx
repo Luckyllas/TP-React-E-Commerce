@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
-import { destacado } from "../data/Destacados";
+import { destacado } from "../dataBase/Destacados";
 
 import "../css/Destacados.css";
-
 
 const Destacados = () => {
   return (
@@ -13,11 +12,7 @@ const Destacados = () => {
             <div className=" col-auto">
               <div className="card">
                 <a href="/">
-                  <img
-                    src={item.img}
-                    alt={item.id}
-                    className="card-image"
-                  />
+                  <img src={item.img} alt={item.id} className="card-image" />
                 </a>
               </div>
             </div>

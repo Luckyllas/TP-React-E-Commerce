@@ -1,8 +1,12 @@
-import React, { Fragment } from "react";
+import React from "react";
+
 const Carrucel = () => {
   return (
-    <div id="carousel-principal" className="carousel slide" data-bs-ride="carousel">
-
+    <div
+      id="carousel-principal"
+      className="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div className="carousel-indicators">
         <button
           type="button"
@@ -23,7 +27,7 @@ const Carrucel = () => {
           data-bs-target="#carousel-principal"
           data-bs-slide-to="2"
           aria-label="Slide 3"
-        ></button>        
+        ></button>
       </div>
 
       <div className="carousel-inner">
@@ -49,7 +53,7 @@ const Carrucel = () => {
           />
         </div>
       </div>
-      
+
       <button
         className="carousel-control-prev"
         type="button"
