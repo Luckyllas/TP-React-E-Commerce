@@ -36,6 +36,7 @@
 #botonEnviar {
     color: #fff;
     background-color: #5f0019;
+    height: 2.5rem;
 }
 
 #botonEnviar:hover {
@@ -48,6 +49,7 @@
 input {
     background-color: #fff;
     color: #5f0019;
+    height: 2.5rem;
 }
 
 #margenesContacto {
