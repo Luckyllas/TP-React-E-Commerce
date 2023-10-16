@@ -1,3 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Mooli&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #5f0019;
+}
+
+#noticiasRedesContacto, #menuFooter, #dataFiscal {
+    color: #5f0019;
+    background-color: #e2e2e2;
+}
+
+#copyright {
+    color: #fff;
+    background-color: #535050;
+}
+
+.muestraEnLineaContacto {
+    /* background-color: aquamarine; */
+    display: inline-block;
+    align-items: center;
+    padding: 0 2rem;
+    border-left: 1px solid rgba(95, 0, 25, .4);
+    height: 100px;
+}
+
+.muestraEnLineaNoticias {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    height: 100px;
+}
+
+#botonEnviar {
+    color: #fff;
+    background-color: #5f0019;
+}
+
+#botonEnviar:hover {
+    transition: all 1s;
+    background-color: #fff;
+    color:#5f0019;
+    border-bottom: #5f0019;
+}
+
+input {
+    background-color: #fff;
+    color: #5f0019;
+}
+
+#margenesContacto {
+    padding: 0 2rem;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 15rem;
+}
+
+#menu li {
+    margin: .5rem;
+    list-style: none;
+}
+
+#menu a {
+    color: #5f0019;
+    text-decoration: none;
+}
+
+#menu > li > a:hover {
+    color: #5f001975;
+}
+#dataFiscal {
+    margin-top: -20px;
+
+}
+
+#dataFiscal img {
+    width: 3rem;
+}
+
+footer{
+    text-align: center;
+}
 /* 
 #pie {
     display: flex;
@@ -42,31 +130,35 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px; */ 
 /* ======= */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Mooli&display=swap');
 
-* {
+
+/* * {
     color: #5f0019;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
-}
+} */
 
-.tarjeta {
+/* .tarjeta {
     display:inline-block;
     align-items: center;
     padding: 0 2rem;
     border-left: 1px solid rgba(95, 0, 25, .4);
+    height: 100px; */
+    
+    
     /* background-color: aqua; */
-    height: 100px;
-}
+        
+/* } */
 
-.imagenes {
+/* .imagenes {
     display: inline-block;
-    width: 3rem;
-}
+    width: 2rem;
+} */
 
 
-.tituloUno {
-    font-family: serif;
+/* .tituloUno {
+    font-family: sans-serif;
+    font-weight: 600; */
 /* >>>>>>> Stashed changes */
-}
+/* } */
