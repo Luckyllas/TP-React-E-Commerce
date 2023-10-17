@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import logo from "../image/logo.png";
 import bolso from "../image/bolsoCompras.png";
 
@@ -13,8 +14,8 @@ const DesktopNavbar = () => {
                         <input className='desktop-search' placeholder='Buscar'></input>
                     </div>
                     <div className='top-bar-button-container'>
-                        <div>Crear Cuenta</div>
-                        <div>Iniciar Sesion</div>
+                        <div><a><Link to="/singin">Crear Cuenta</Link></a></div>
+                        <div><a><Link to="/Login">Iniciar Sesion</Link></a></div>
                     </div>
                 </div>
                 <div className='bot-bar-container'>
@@ -23,10 +24,10 @@ const DesktopNavbar = () => {
                     </div>
                     <div className="desktop-navbar-container">
                         <div className="navbar-button-container">
-                            <div className='button-desktop-navbar'>Inicio</div>
-                            <div className='button-desktop-navbar'>Productos</div>
-                            <div className='button-desktop-navbar'>Quienes Somos</div>
-                            <div className='button-desktop-navbar'>Contacto</div>
+                            <div className='button-desktop-navbar'><a><Link to="/">Inicio</Link></a></div>
+                            <div className='button-desktop-navbar'><a><Link to="">Productos</Link></a></div>
+                            <div className='button-desktop-navbar'><a><Link to="">Quienes Somos</Link></a></div>
+                            <div className='button-desktop-navbar'><a><Link to="/">Contacto</Link></a></div>
                         </div>
                     </div>
                     <div className="carrito-container space-between">

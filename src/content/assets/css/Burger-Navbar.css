@@ -52,6 +52,7 @@
   }
 
   .burger-button-container {
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -72,5 +73,4 @@
     margin: 10px 10px 10px 0;
     background-color: #5f0019;
   }
-
 }

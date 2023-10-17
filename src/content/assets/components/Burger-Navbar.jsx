@@ -9,10 +9,11 @@ const BurgerNavbar = () => {
     const desactivarNavbarHandler = () => setEstado('Desactivado');
 
     return (
-        <div>
+    <div>
         <header>
             <div className="burger-navbar">
                 <nav>
+                    
                     <div className='top-burger-navbar-container'>
                         <button className='abrir-navbar' style={{visibility: estado==="Activado" ? "hidden" : "visible"}} onClick={activarNavbarHandler}>Abrir</button>
                         <div className='burger-search-container'>
@@ -30,18 +31,22 @@ const BurgerNavbar = () => {
                     <div className={estado==="Activado" ? "burger-menu-container-visible" : "burger-menu-container-hidden"}>
                         <button className='cerrar-navbar'onClick={desactivarNavbarHandler}>Cerrar</button>
                         <div className='burger-button-container'>
-                            <div>Inicio</div>
-                            <div>Productos</div>
-                            <div>Quienes Somos</div>
-                            <div>Contacto</div>
-                            <div>Iniciar Sesion</div>
+                            <div>Icono</div>
                             <div>Registrarse</div>
-                        </div>
+                            <div> Iniciar Sesion</div>
+                            <div>Vinos Argentinos</div>
+                            <div>Vinos del Mundo</div>
+                            <div>Destilados</div>
+                            <div>Cristaleria</div>
+                            <div>Aceites</div>
+                            <div>Packs</div>
+                            <div>Degustaciones</div>   
+                        </div>                         
                     </div>
                 </nav>
             </div>
         </header>
-        </div>
+    </div>
     );
 }
 
