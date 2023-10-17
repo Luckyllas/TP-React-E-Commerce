@@ -5,7 +5,8 @@ import Header from "../page/Header";
 import Footer from "../page/Footer";
 import Catalogo from "../page/Catalogo";
 import Cart from "../page/Cart";
-
+import Login from "../components/Login";
+import Singin from "../components/Singin";
 
 const Rutas = () => {
   return (
@@ -15,6 +16,8 @@ const Rutas = () => {
         <Route path="/" element={<Main />} />
         <Route path="/Catalogo" element={<Catalogo />} />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/singin" element={<Singin />} />
       </Routes>
       <Footer />
     </Router>
