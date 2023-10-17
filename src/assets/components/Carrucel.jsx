@@ -1,6 +1,8 @@
 import React from "react";
 
 const Carrucel = () => {
+
+
   return (
     <div
       id="carousel-principal"
@@ -33,7 +35,7 @@ const Carrucel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="1000">
           <img
-            src={require(`../image/Carrucel/1.webp`)}
+           src={require(`../image/Carrucel/1.webp`)}           
             className="d-block w-100"
             alt="..."
           />

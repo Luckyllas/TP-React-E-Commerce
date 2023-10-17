@@ -20,7 +20,7 @@ const Catalogo = () => {
 
     dispatch({ type: TYPES.READ_STATE, payload: [productsData, cartData] });
   };
-
+  
   useEffect(() => {
     updateProducts();
   }, []);

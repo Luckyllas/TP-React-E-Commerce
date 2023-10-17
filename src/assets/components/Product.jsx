@@ -1,19 +1,22 @@
 import React, { Fragment } from "react";
 import "../css/Product.css";
+import { imageProduct } from "../helpers/ImagesDirectory";
 //import image from "../image/Productos/achavalQuimera.png"
 
 const Product = ({ product, addToCart }) => {
   const { id, img, precio, etiqueta } = product;
+
+  
 
   return (
     <Fragment key={id}>
       <div className=" col-auto">
         <div className="card">
           <img
-            src={img}
+            src={imageProduct(`./${ img }`)}
             alt={etiqueta}
             className="card-image"
-          />
+          /> 
           <figcaption>
             <ul className="card-data">
               <li>

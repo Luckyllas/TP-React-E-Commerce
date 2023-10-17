@@ -63,24 +63,21 @@ const Cart = () => {
     const confirm = window.confirm("¿Estas seguro de vaciar el carrito?");
     if (confirm) {
       dispatch({ type: TYPES.CLEAR_TO_CART });
-      
     }
   }; //vacia el carrito
 
   return (
     <div className="container-fluid">
       <h2>Carrito de Compras</h2>
-      <div className="table-responsive">
-        <table className="table table-borderless align-middle">
-          {state.cart.map((item) => (
-            <CartItem
-              key={item.id}
-              item={item}
-              removeItems={removeItems}
-              addToCart={addToCart}
-            />
-          ))}
-        </table>
+      <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
+        {state.cart.map((item) => (
+          <CartItem
+            key={item.id}
+            item={item}
+            removeItems={removeItems}
+            addToCart={addToCart}
+          />
+        ))}
       </div>
       <div>
         {state.cart.length > 0 && (
