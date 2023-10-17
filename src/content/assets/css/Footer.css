@@ -19,8 +19,8 @@
 .muestraEnLineaContacto {
     /* background-color: aquamarine; */
     display: inline-block;
-    align-items: center;
-    padding: 0 2rem;
+    /* align-items: center; */
+    padding: 0 4rem;
     border-left: 1px solid rgba(95, 0, 25, .4);
     height: 100px;
 }
@@ -28,6 +28,8 @@
 .muestraEnLineaNoticias {
     /* background-color: aquamarine; */
     display: flex;
+    flex-direction: row;
+    margin-left: 19rem;
     align-items: center;
     padding: 0 2rem;
     height: 100px;
@@ -61,6 +63,7 @@ input {
     align-items: center;
     text-align: center;
     padding: 0 15rem;
+    margin-left: 10rem;
 }
 
 #menu li {
@@ -88,6 +91,17 @@ input {
 footer{
     text-align: center;
 }
+
+#imagenCard {
+    width: 44px;
+    margin-right: 10px;
+}
+
+#imgFace {
+    width: 24px;
+    margin-right: 10px;
+}
+
 /* 
 #pie {
     display: flex;
