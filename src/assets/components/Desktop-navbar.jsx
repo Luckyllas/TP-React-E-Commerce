@@ -14,14 +14,10 @@ const DesktopNavbar = () => {
             </div>
             <div className="top-bar-button-container">
               <div>
-                <a>
-                  <Link to="/singin">Crear Cuenta</Link>
-                </a>
+                <Link to="/singin">Crear Cuenta</Link>
               </div>
               <div>
-                <a>
-                  <Link to="/Login">Iniciar Sesion</Link>
-                </a>
+                <Link to="/Login">Iniciar Sesion</Link>
               </div>
             </div>
           </div>
@@ -32,24 +28,16 @@ const DesktopNavbar = () => {
             <div className="desktop-navbar-container">
               <div className="navbar-button-container">
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="/">Inicio</Link>
-                  </a>
+                  <Link to="/">Inicio</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="Catalogo">Productos</Link>
-                  </a>
+                  <Link to="Catalogo">Productos</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="">Quienes Somos</Link>
-                  </a>
+                  <Link to="">Quienes Somos</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="/">Contacto</Link>
-                  </a>
+                  <Link to="/">Contacto</Link>
                 </div>
               </div>
             </div>
