@@ -22,12 +22,20 @@ const DesktopNavbar = () => {
           </div>
           <div className="desktop-navbar-container">
             <div className="navbar-button-container">
-              <div className="button-desktop-navbar"><Link to="/" className="link">Inico</Link></div>
-              <div className="button-desktop-navbar"><Link to="/Catalogo" className="link">Vinos Argentinos</Link></div>
+              <div className="button-desktop-navbar">
+                <Link to="/" className="link">
+                  Inico
+                </Link>
+              </div>
+              <div className="button-desktop-navbar">
+                <Link to="/Catalogo" className="link">
+                  Vinos Argentinos
+                </Link>
+              </div>
             </div>
           </div>
           <div className="carrito-container space-between">
-            <a href="/carrito">
+            <Link to="/Cart" className="link">              
               <div className="carrito">
                 <div className="carrito-item-cont">
                   <img
@@ -38,7 +46,7 @@ const DesktopNavbar = () => {
                   <span className="cont">0</span>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

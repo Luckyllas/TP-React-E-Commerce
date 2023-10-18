@@ -39,6 +39,18 @@ const Cart = () => {
   const removeItems = async (id, eliminarTodo) => {
     if (eliminarTodo) {
       dispatch({ type: TYPES.REMOVE_ALL_ITEMS, payload: id });
+      let productoCart = state.cart.find((item) => item.id === id);
+
+      await axios.put("http://localhost:8080/carrito/" + productoCart.id, {
+        ...productoCart,
+        cantidad: 0,
+      });
+      productoCart = state.cart.find((item) => item.id === id);
+      console.log("antes del if " + productoCart.cantidad);
+      if (productoCart.cantidad > 0) {
+        console.log(productoCart.cantidad);
+        axios.delete("http://localhost:8080/carrito/" + productoCart.id);
+      }
     } else {
       dispatch({ type: TYPES.REMOVE_ITEM, payload: id });
 
