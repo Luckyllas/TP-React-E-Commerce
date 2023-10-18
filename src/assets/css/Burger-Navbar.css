@@ -4,12 +4,7 @@
   }
 
   .burger-navbar {
-<<<<<<< HEAD:src/assets/css/Burger-Navbar.css
     display: contents;
-=======
-    visibility: visible;
-    opacity: 1;
->>>>>>> Header:src/content/assets/css/Burger-Navbar.css
   }
   .top-burger-navbar-container {
     display: flex;

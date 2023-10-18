@@ -3,13 +3,9 @@
   padding: 0;
 }
 
-<<<<<<< HEAD:src/assets/css/Desktop-Navbar.css
 .burger-navbar {
   display: none;
 }
-=======
-
->>>>>>> Header:src/content/assets/css/Desktop-Navbar.css
 
 .logo-container img {
   height: 80px;
@@ -121,12 +117,4 @@ a {
 
 .active {
   font-weight: bold;
-<<<<<<< HEAD:src/assets/css/Desktop-Navbar.css
-=======
-}
-
-.burger-navbar {
-  visibility: hidden;
-  opacity: 0;
->>>>>>> Header:src/content/assets/css/Desktop-Navbar.css
 }
