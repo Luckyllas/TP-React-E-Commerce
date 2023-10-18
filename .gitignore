@@ -21,10 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-TPReactGrupo\src\content\assets\image\Productos\*.jpg
-TPReactGrupo\src\content\assets\image\Productos\*.png
-TPReactGrupo\src\content\assets\image\Productos\*.webp
-TPReactGrupo\src\content\assets\image\*.jpg
-TPReactGrupo\src\content\assets\image\*.png
-TPReactGrupo\src\content\assets\image\*.webp
