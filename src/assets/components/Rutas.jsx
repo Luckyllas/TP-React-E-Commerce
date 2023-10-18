@@ -3,10 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "../page/Main";
 import Header from "../page/Header";
 import Footer from "../page/Footer";
-import Catalogo from "../page/Catalogo";
-import Cart from "../page/Cart";
-import Login from "../components/Login";
-import Singin from "../components/Singin";
+//import Contacto from "../Page/Contacto";
 
 const Rutas = () => {
   return (
@@ -14,10 +11,7 @@ const Rutas = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/Catalogo" element={<Catalogo />} />
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/singin" element={<Singin />} />
+        {/*<Route path="/Contacto" element={<Contacto />} />*/}
       </Routes>
       <Footer />
     </Router>
