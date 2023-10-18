@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-
+.burger-navbar {
+  display: none;
+}
 
 .logo-container img {
   height: 80px;
@@ -115,9 +117,4 @@ a {
 
 .active {
   font-weight: bold;
-}
-
-.burger-navbar {
-  visibility: hidden;
-  opacity: 0;
 }

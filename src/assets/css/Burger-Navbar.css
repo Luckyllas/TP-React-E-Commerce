@@ -4,8 +4,7 @@
   }
 
   .burger-navbar {
-    visibility: visible;
-    opacity: 1;
+    display: contents;
   }
   .top-burger-navbar-container {
     display: flex;
