@@ -75,7 +75,10 @@ const Cart = () => {
     const confirm = window.confirm("¿Estas seguro de vaciar el carrito?");
     if (confirm) {
       dispatch({ type: TYPES.CLEAR_TO_CART });
-    }
+      state.cart.forEach(item => {
+        axios.delete("http://localhost:8080/carrito/" + item.id);
+      });
+    }    
   }; //vacia el carrito
 
   return (

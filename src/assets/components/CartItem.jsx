@@ -46,7 +46,7 @@ const CartItem = ({ item, removeItems, addToCart }) => {
                     aria-label="Second group"
                   >
                     <button type="button" className="btn btn-outline-dark disabled ">
-                      <strong>{cantidad}</strong>
+                      <strong>{cantidad}</strong>                      
                     </button>
                   </div>
                   <div className="btn-group" role="group" aria-label="Third group">

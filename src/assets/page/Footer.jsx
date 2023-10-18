@@ -6,7 +6,7 @@ import Menu from "../components/footer/menu";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <section id="compraTarjetaEnvios">
         <CompraTarjetaEnvios />
       </section>

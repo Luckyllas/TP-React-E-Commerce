@@ -409,32 +409,5 @@
       "img": "../image/Destacados/destacado2.webp2"
     }
   ],
-  "carrito": [
-    {
-      "id": 2,
-      "img": "alpasionGrandCabFranc.png",
-      "bodega": "Alpasion",
-      "etiqueta": "Alpasion Grand Cabernet Franc",
-      "uva": "Cabernet Franc",
-      "region": "Mendoza",
-      "tipo": "tinto",
-      "precio": "17.900",
-      "destacado": true,
-      "stock": 10,
-      "cantidad": 4
-    },
-    {
-      "id": 18,
-      "img": "gran-enemigo-malbec.webp",
-      "Bodega": "Aleanna",
-      "etiqueta": "Gran Enemigo Malbec",
-      "uva": "Malbec",
-      "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": "22.400",
-      "destacado": false,
-      "stock": 30,
-      "cantidad": 2
-    }
-  ]
+  "carrito": []
 }
