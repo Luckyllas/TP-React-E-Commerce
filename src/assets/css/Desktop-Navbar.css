@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+<<<<<<< HEAD:src/assets/css/Desktop-Navbar.css
+.burger-navbar {
+  display: none;
+}
+=======
+
+>>>>>>> Header:src/content/assets/css/Desktop-Navbar.css
+
+.logo-container img {
+  height: 80px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.carrito-item-cont img {
+  height: 50px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.cont {
+  position: absolute;
+  color: black;
+  top: 6px;
+  right: -8px;
+  border-radius: 100px;
+  width: 18px;
+  height: 18px;
+  line-height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #b8a982;
+}
+
+.carrito-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.carrito-container a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.space-between {
+  grid-column: 3/3;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.carrito {
+  display: flex;
+}
+
+.carrito-item-cont {
+  flex-shrink: 0;
+  position: relative;
+}
+
+.top-bar-container {
+  display: flex;
+  height: 50px;
+  background-color: #5f0019;
+  color: white;
+  justify-content: space-between;
+}
+
+.desktop-search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  justify-self: flex-start;
+}
+
+.top-bar-button-container {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  gap: 10px;
+
+}
+
+.bot-bar-container {
+  display: grid;
+  grid-template-columns: 35% 50% 15%;
+  background-color: #f8efd9;
+}
+
+.navbar-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.button-desktop-navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+
+.active {
+  font-weight: bold;
+<<<<<<< HEAD:src/assets/css/Desktop-Navbar.css
+=======
+}
+
+.burger-navbar {
+  visibility: hidden;
+  opacity: 0;
+>>>>>>> Header:src/content/assets/css/Desktop-Navbar.css
+}
