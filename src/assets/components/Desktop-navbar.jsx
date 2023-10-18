@@ -14,14 +14,10 @@ const DesktopNavbar = () => {
             </div>
             <div className="top-bar-button-container">
               <div>
-                <a>
-                  <Link to="/singin">Crear Cuenta</Link>
-                </a>
+                <Link to="/singin">Crear Cuenta</Link>
               </div>
               <div>
-                <a>
-                  <Link to="/Login">Iniciar Sesion</Link>
-                </a>
+                <Link to="/Login">Iniciar Sesion</Link>
               </div>
             </div>
           </div>
@@ -32,29 +28,21 @@ const DesktopNavbar = () => {
             <div className="desktop-navbar-container">
               <div className="navbar-button-container">
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="/">Inicio</Link>
-                  </a>
+                  <Link to="/">Inicio</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="">Productos</Link>
-                  </a>
+                  <Link to="Catalogo">Productos</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="">Quienes Somos</Link>
-                  </a>
+                  <Link to="">Quienes Somos</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <a>
-                    <Link to="/">Contacto</Link>
-                  </a>
+                  <Link to="/">Contacto</Link>
                 </div>
               </div>
             </div>
             <div className="carrito-container space-between">
-              <a href="/carrito">
+              <Link to="/Cart">
                 <div className="carrito">
                   <div className="carrito-item-cont">
                     <img
@@ -65,7 +53,7 @@ const DesktopNavbar = () => {
                     <span className="cont">0</span>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

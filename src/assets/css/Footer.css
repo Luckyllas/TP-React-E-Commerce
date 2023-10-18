@@ -6,6 +6,10 @@
     color: #5f0019;
 }
 
+#footer{
+    border-top: 1px solid #fff;;
+}
+
 #noticiasRedesContacto, #menuFooter, #dataFiscal {
     color: #5f0019;
     background-color: #e2e2e2;
