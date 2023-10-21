@@ -8,7 +8,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": "18.000",
+      "precio": 18000,
       "destacado": false,
       "stock": 20
     },
@@ -20,7 +20,7 @@
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": "17.900",
+      "precio": 17900,
       "destacado": true,
       "stock": 10
     },
@@ -32,7 +32,7 @@
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": "11.400",
+      "precio": 11400,
       "destacado": false,
       "stock": 25
     },
@@ -44,7 +44,7 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": "18.200",
+      "precio": 18200,
       "destacado": false,
       "stock": 5
     },
@@ -56,7 +56,7 @@
       "uva": "Chardonnay",
       "region": "Mendoza",
       "tipo": "Blanco",
-      "precio": "11.600",
+      "precio": 11600,
       "destacado": false,
       "stock": 3
     },
@@ -68,7 +68,7 @@
       "uva": "Chardonnay/Pinot Noir",
       "region": "Mendoza",
       "tipo": "Espumante",
-      "precio": "22.570",
+      "precio": 22570,
       "destacado": false,
       "stock": 5
     },
@@ -80,7 +80,7 @@
       "uva": "Chardonnay/Pinot Noir",
       "region": "Mendoza",
       "tipo": "Espumante",
-      "precio": "7.710",
+      "precio": 7710,
       "destacado": false,
       "stock": 7
     },
@@ -92,7 +92,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Espumante",
-      "precio": "8.830",
+      "precio": 8830,
       "destacado": false,
       "stock": 40
     },
@@ -104,7 +104,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "42.850",
+      "precio": 42850,
       "destacado": false,
       "stock": 15
     },
@@ -116,7 +116,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "3.360",
+      "precio": 3360,
       "destacado": false,
       "stock": 9
     },
@@ -128,7 +128,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "5.700",
+      "precio": 5.7,
       "destacado": false,
       "stock": 0
     },
@@ -140,7 +140,7 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "11.940",
+      "precio": 11940,
       "destacado": false,
       "stock": 5
     },
@@ -152,7 +152,7 @@
       "uva": "Chardonnay",
       "region": "Mendoza",
       "tipo": "Blanco",
-      "precio": "12.900",
+      "precio": 12900,
       "destacado": false,
       "stock": 0
     },
@@ -164,7 +164,7 @@
       "uva": "Bonarda",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": "12.100",
+      "precio": 12100,
       "destacado": true,
       "stock": 9
     },
@@ -176,7 +176,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "22.700",
+      "precio": 22700,
       "destacado": false,
       "stock": 0
     },
@@ -188,7 +188,7 @@
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "18.400",
+      "precio": 18400,
       "destacado": false,
       "stock": 5
     },
@@ -200,7 +200,7 @@
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "30.000",
+      "precio": 30000,
       "destacado": false,
       "stock": 5
     },
@@ -212,7 +212,7 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "22.400",
+      "precio": 22400,
       "destacado": false,
       "stock": 30
     },
@@ -224,7 +224,7 @@
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "24.400",
+      "precio": 24400,
       "destacado": true,
       "stock": 2
     },
@@ -236,7 +236,7 @@
       "uva": "Malbec - Cabernet Franc",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "14.100",
+      "precio": 14100,
       "destacado": false,
       "stock": 10
     },
@@ -248,7 +248,7 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "14.270",
+      "precio": 14270,
       "destacado": false,
       "stock": 0
     },
@@ -260,7 +260,7 @@
       "uva": "Pinot Noir",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "12.175",
+      "precio": 12175,
       "destacado": false,
       "stock": 1
     },
@@ -272,7 +272,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "53.500",
+      "precio": 53500,
       "destacado": false,
       "stock": 1
     },
@@ -284,7 +284,7 @@
       "uva": "Chardonnay",
       "region": "Mendoza",
       "tipo": "Blanco",
-      "precio": "11.900",
+      "precio": 11900,
       "destacado": false,
       "stock": 2
     },
@@ -296,7 +296,7 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "10.900",
+      "precio": 10900,
       "destacado": true,
       "stock": 1
     },
@@ -308,7 +308,7 @@
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "32.100",
+      "precio": 32100,
       "destacado": false,
       "stock": 2
     },
@@ -320,7 +320,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "38.000",
+      "precio": 38000,
       "destacado": false,
       "stock": 1
     },
@@ -332,7 +332,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "10.500",
+      "precio": 10500,
       "destacado": false,
       "stock": 4
     },
@@ -344,7 +344,7 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Espumante",
-      "precio": "18.500",
+      "precio": 18500,
       "destacado": true,
       "stock": 3
     },
@@ -356,7 +356,7 @@
       "uva": "Pinot Noir",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "4.100",
+      "precio": 4100,
       "destacado": false,
       "stock": 6
     },
@@ -368,7 +368,7 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "4.190",
+      "precio": 4190,
       "destacado": true,
       "stock": 1
     },
@@ -380,49 +380,25 @@
       "uva": "Malbec",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": "40.200",
+      "precio": 40200,
       "destacado": false,
       "stock": 2
     }
   ],
-  "carrucel": [
-    {
-      "id": 1,
-      "img": "1.webp"
-    },
-    {
-      "id": 2,
-      "img": "2.webp"
-    },
-    {
-      "id": 3,
-      "img": "3.webp"
-    }
-  ],
-  "portada": [
-    {
-      "id": 1,
-      "img": "../image/Destacados/destacado1.webp"
-    },
-    {
-      "id": 2,
-      "img": "../image/Destacados/destacado2.webp2"
-    }
-  ],
   "carrito": [
     {
-      "id": 3,
-      "img": "angelica-cab-franc.webp",
-      "Bodega": "Catena Zapata",
-      "etiqueta": " Angelica Zapata Cabernet Franc",
+      "id": 2,
+      "img": "alpasionGrandCabFranc.png",
+      "bodega": "Alpasion",
+      "etiqueta": "Alpasion Grand Cabernet Franc",
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": "11.400",
-      "destacado": false,
-      "stock": 25,
-      "cantidad": 3,
-      "subtotal": 34.2
+      "precio": 17900,
+      "destacado": true,
+      "stock": 10,
+      "cantidad": 2,
+      "subtotal": 35800
     }
   ]
 }
