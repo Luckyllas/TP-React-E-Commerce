@@ -9,12 +9,9 @@ const DesktopNavbar = () => {
       <header>
         <nav>
           <div className="top-bar-container">
-            <div className="desktop-search-container">
-              <input className="desktop-search" placeholder="Buscar"></input>
-            </div>
             <div className="top-bar-button-container">
               <div>
-                <Link to="/singin">Crear Cuenta</Link>
+                <Link to="/Singin">Crear Cuenta</Link>
               </div>
               <div>
                 <Link to="/Login">Iniciar Sesion</Link>
@@ -23,7 +20,9 @@ const DesktopNavbar = () => {
           </div>
           <div className="bot-bar-container">
             <div className="logo-container">
-              <img src={logo} alt="logo" />
+              <Link to="/">
+                <img src={logo} alt="logo" />
+              </Link>
             </div>
             <div className="desktop-navbar-container">
               <div className="navbar-button-container">
@@ -34,10 +33,10 @@ const DesktopNavbar = () => {
                   <Link to="Catalogo">Productos</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <Link to="">Quienes Somos</Link>
+                  <Link to="/Quienes-Somos">Quienes Somos</Link>
                 </div>
                 <div className="button-desktop-navbar">
-                  <Link to="/">Contacto</Link>
+                  <Link to="/contacto">Contacto</Link>
                 </div>
               </div>
             </div>
