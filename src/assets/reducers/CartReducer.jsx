@@ -3,7 +3,8 @@ import { TYPES } from "../actions/Types";
 
 export const cartInitialState = {
   products: [],
-  cart: []
+  cart: [],
+  contador: 0,
 };
 
 //state: es el estado en que se encuentra el componente
@@ -78,8 +79,14 @@ export const cartReducer = (state, action) => {
         cart: action.payload[1]
       }
     }
+    case TYPES.COUNT_TO_CART:{
+      
+      return state.contador;
+      
+    }
     default: {
       return state;
+      
     }
   }
 };

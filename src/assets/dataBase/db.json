@@ -409,5 +409,20 @@
       "img": "../image/Destacados/destacado2.webp2"
     }
   ],
-  "carrito": []
+  "carrito": [
+    {
+      "id": 3,
+      "img": "angelica-cab-franc.webp",
+      "Bodega": "Catena Zapata",
+      "etiqueta": " Angelica Zapata Cabernet Franc",
+      "uva": "Cabernet Franc",
+      "region": "Mendoza",
+      "tipo": "tinto",
+      "precio": "11.400",
+      "destacado": false,
+      "stock": 25,
+      "cantidad": 3,
+      "subtotal": 34.2
+    }
+  ]
 }

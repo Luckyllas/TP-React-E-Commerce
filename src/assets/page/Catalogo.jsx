@@ -20,7 +20,7 @@ const Catalogo = () => {
 
     dispatch({ type: TYPES.READ_STATE, payload: [productsData, cartData] });
   };
-  
+
   useEffect(() => {
     updateProducts();
   }, []);
@@ -28,9 +28,7 @@ const Catalogo = () => {
   const addToCart = async (id) => {
     dispatch({ type: TYPES.ADD_TO_CART, payload: id });
 
-    const nuevoProducto = state.products.find(
-      (product) => product.id === id
-      );
+    const nuevoProducto = state.products.find((product) => product.id === id);
 
     const productoCart = state.cart.find(
       (item) => item.id === nuevoProducto.id
@@ -38,18 +36,21 @@ const Catalogo = () => {
 
     if (productoCart) {
       let total = productoCart.cantidad + 1;
+      let subtotalPagar =total * productoCart.precio;
 
       await axios.put("http://localhost:8080/carrito/" + productoCart.id, {
         ...productoCart,
         cantidad: total,
+        subtotal:subtotalPagar,
       });
-
-    } else {     
+      console.log(subtotalPagar);
+    } else {
       await axios.post("http://localhost:8080/carrito", {
         ...nuevoProducto,
         cantidad: 1,
+        subtotal: nuevoProducto.precio,
       });
-    }
+     }    
   }; // funcion de agregar un producto al carrito
 
   return (

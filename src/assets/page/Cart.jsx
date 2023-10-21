@@ -3,6 +3,7 @@ import CartItem from "../components/CartItem";
 import { cartInitialState, cartReducer } from "../reducers/CartReducer";
 import { TYPES } from "../actions/Types";
 import axios from "axios";
+import TituloCarrito from "../components/TituloCarrito";
 
 const Cart = () => {
   const [state, dispatch] = useReducer(cartReducer, cartInitialState);
@@ -29,10 +30,13 @@ const Cart = () => {
     const productoCart = state.cart.find((item) => item.id === id);
 
     let total = productoCart.cantidad + 1;
+    let subtotalPagar = total * productoCart.precio;
+    console.log(subtotalPagar);
 
     await axios.put("http://localhost:8080/carrito/" + productoCart.id, {
       ...productoCart,
       cantidad: total,
+      subtotal: subtotalPagar,
     });
   };
 
@@ -46,26 +50,29 @@ const Cart = () => {
         cantidad: 0,
       });
       productoCart = state.cart.find((item) => item.id === id);
-      console.log("antes del if " + productoCart.cantidad);
+      
       if (productoCart.cantidad > 0) {
         console.log(productoCart.cantidad);
         axios.delete("http://localhost:8080/carrito/" + productoCart.id);
       }
-    } else {
+    } else {     
+
       dispatch({ type: TYPES.REMOVE_ITEM, payload: id });
 
       let productoCart = state.cart.find((item) => item.id === id);
 
       let total = productoCart.cantidad - 1;
+      let subtotalPagar = total * productoCart.precio;
+      console.log(subtotalPagar);
 
       await axios.put("http://localhost:8080/carrito/" + productoCart.id, {
         ...productoCart,
         cantidad: total,
+        subtotal: subtotalPagar,
       });
       productoCart = state.cart.find((item) => item.id === id);
       console.log("antes del if " + productoCart.cantidad);
-      if (productoCart.cantidad === 1) {
-        console.log(productoCart.cantidad);
+      if (productoCart.cantidad === 1) {        
         axios.delete("http://localhost:8080/carrito/" + productoCart.id);
       }
     }
@@ -75,23 +82,27 @@ const Cart = () => {
     const confirm = window.confirm("¿Estas seguro de vaciar el carrito?");
     if (confirm) {
       dispatch({ type: TYPES.CLEAR_TO_CART });
-      state.cart.forEach(item => {
+      state.cart.forEach((item) => {
         axios.delete("http://localhost:8080/carrito/" + item.id);
       });
-    }    
+    }
   }; //vacia el carrito
+
+  //let totalPagar; 
 
   return (
     <div className="container-fluid">
-      <h2>Carrito de Compras</h2>
+      <TituloCarrito />
       <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
         {state.cart.map((item) => (
           <CartItem
             key={item.id}
             item={item}
-            removeItems={removeItems}
-            addToCart={addToCart}
+            removeItems={(removeItems)}
+            addToCart={(addToCart)}  
+          // totalPagar={totalPagar+item.subtotalPagar}          
           />
+          
         ))}
       </div>
       <div>
@@ -100,6 +111,9 @@ const Cart = () => {
             Vaciar Carrito
           </button>
         )}
+      </div>
+      <div>
+        
       </div>
     </div>
   );

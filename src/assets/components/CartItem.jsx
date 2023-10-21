@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { imageProduct } from "../helpers/ImagesDirectory";
 
-const CartItem = ({ item, removeItems, addToCart }) => {
+const CartItem = ({ item, removeItems, addToCart, countToCart }) => {
   const { id, img, etiqueta, precio, cantidad } = item;
 
   return (
@@ -36,6 +36,7 @@ const CartItem = ({ item, removeItems, addToCart }) => {
                       type="button"
                       className="btn btn-success"
                       onClick={() => removeItems(id, false)}
+                      onAuxClick={() => countToCart(false)}
                     >
                       <i className="bi bi-dash-lg"></i>
                     </button>
@@ -45,15 +46,23 @@ const CartItem = ({ item, removeItems, addToCart }) => {
                     role="group"
                     aria-label="Second group"
                   >
-                    <button type="button" className="btn btn-outline-dark disabled ">
-                      <strong>{cantidad}</strong>                      
+                    <button
+                      type="button"
+                      className="btn btn-outline-dark disabled "
+                    >
+                      <strong>{cantidad}</strong>
                     </button>
                   </div>
-                  <div className="btn-group" role="group" aria-label="Third group">
+                  <div
+                    className="btn-group"
+                    role="group"
+                    aria-label="Third group"
+                  >
                     <button
                       type="button"
                       className="btn btn-success"
                       onClick={() => addToCart(id)}
+                      onAuxClick={() => countToCart(true)}
                     >
                       <i className="bi bi-plus-lg"></i>
                     </button>
@@ -61,15 +70,14 @@ const CartItem = ({ item, removeItems, addToCart }) => {
                 </div>
               </li>
               <li>
-              <div class="d-grid gap-2 col-6 mx-auto">
-
-                <button
-                  type="button"
-                  className="btn btn-warning btn-md"
-                  onClick={() => removeItems(id, true)}
-                >
-                  <i className="bi bi-trash3"></i>
-                </button>
+                <div className="d-grid gap-3 col-3 mx-auto">
+                  <button
+                    type="button"
+                    className="btn btn-warning btn-md"
+                    onClick={() => removeItems(id, true)}
+                  >
+                    <i className="bi bi-trash3"></i>
+                  </button>
                 </div>
               </li>
             </ul>
