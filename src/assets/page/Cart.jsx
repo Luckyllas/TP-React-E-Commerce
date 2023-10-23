@@ -3,7 +3,7 @@ import CartItem from "../components/CartItem";
 import { cartInitialState, cartReducer } from "../reducers/CartReducer";
 import { TYPES } from "../actions/Types";
 import axios from "axios";
-import TituloCarrito from "../components/TituloCarrito";
+import TituloPrincipal from "../components/TituloPrincipal";
 
 const Cart = () => {
   const [state, dispatch] = useReducer(cartReducer, cartInitialState);
@@ -86,13 +86,12 @@ const Cart = () => {
         axios.delete("http://localhost:8080/carrito/" + item.id);
       });
     }
-  }; //vacia el carrito
+  }; //vacia el carrito  
 
-  //let totalPagar; 
-
+  const titulo = "Carrito de Compras";
   return (
     <div className="container-fluid">
-      <TituloCarrito />
+      <TituloPrincipal titulo={titulo} />
       <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
         {state.cart.map((item) => (
           <CartItem

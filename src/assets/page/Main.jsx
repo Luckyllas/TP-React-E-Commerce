@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Main.css";
 import Carrucel from "../components/Carrucel";
 import Banner from "../components/Banner";
-import Destacados from "../components/Destacados";
+import Destacados from "../page/Destacados";
 
 const Main = () => {
   return (

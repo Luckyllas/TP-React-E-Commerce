@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { imageProduct } from "../helpers/ImagesDirectory";
 
-const CartItem = ({ item, removeItems, addToCart, countToCart }) => {
+const CartItem = ({ item, removeItems, addToCart }) => {
   const { id, img, etiqueta, precio, cantidad } = item;
 
   return (
@@ -36,7 +36,6 @@ const CartItem = ({ item, removeItems, addToCart, countToCart }) => {
                       type="button"
                       className="btn btn-success"
                       onClick={() => removeItems(id, false)}
-                      onAuxClick={() => countToCart(false)}
                     >
                       <i className="bi bi-dash-lg"></i>
                     </button>
@@ -62,7 +61,6 @@ const CartItem = ({ item, removeItems, addToCart, countToCart }) => {
                       type="button"
                       className="btn btn-success"
                       onClick={() => addToCart(id)}
-                      onAuxClick={() => countToCart(true)}
                     >
                       <i className="bi bi-plus-lg"></i>
                     </button>
