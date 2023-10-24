@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer } from "react";
 import { cartInitialState, cartReducer } from "../reducers/CartReducer";
-import Product from "../components/Product";
+import Product from "../components/ProductItem";
 import TituloPrincipal from "../components/TituloPrincipal";
 import { TYPES } from "../actions/Types";
 import axios from "axios";

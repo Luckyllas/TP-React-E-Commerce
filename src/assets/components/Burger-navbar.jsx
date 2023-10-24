@@ -1,70 +1,64 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../image/logo.png";
+import bolso from "../image/bolsoCompras.png";
 
-const BurgerNavbar = () => {
-  const [estado, setEstado] = useState("");
-
-  const activarNavbarHandler = () => setEstado("Activado");
-  const desactivarNavbarHandler = () => setEstado("Desactivado");
-
+const DesktopNavbar = () => {
   return (
     <div>
       <header>
-        <div className="burger-navbar">
-          <nav>
-            <div className="top-burger-navbar-container">
-              <button
-                className="abrir-navbar"
-                style={{
-                  visibility: estado === "Activado" ? "hidden" : "visible",
-                }}
-                onClick={activarNavbarHandler}
-              >
-                Abrir
-              </button>
-              <div className="burger-search-container">
-                <input className="burger-search" placeholder="Buscar"></input>
+        <nav>
+          <div className="top-bar-container">
+            <div className="top-bar-button-container">
+              <div>
+                <Link to="/Singin">Crear Cuenta</Link>
+              </div>
+              <div>
+                <Link to="/Login">Iniciar Sesion</Link>
               </div>
             </div>
-            <div className="bot-burger-navbar-container">
-              <div className="button-burger-navbar">Inicio</div>
-              <div className="button-burger-navbar">Productos</div>
-              <div className="button-burger-navbar">Carrito</div>
-            </div>
+          </div>
+          <div className="bot-bar-container">
             <div className="logo-container">
-              <img src={logo} alt="logo" />
+              <Link to="/">
+                <img src={logo} alt="logo" />
+              </Link>
             </div>
-            <div
-              className={
-                estado === "Activado"
-                  ? "burger-menu-container-visible"
-                  : "burger-menu-container-hidden"
-              }
-            >
-              <button
-                className="cerrar-navbar"
-                onClick={desactivarNavbarHandler}
-              >
-                Cerrar
-              </button>
-              <div className="burger-button-container">
-                <div>Icono</div>
-                <div>Registrarse</div>
-                <div> Iniciar Sesion</div>
-                <div>Vinos Argentinos</div>
-                <div>Vinos del Mundo</div>
-                <div>Destilados</div>
-                <div>Cristaleria</div>
-                <div>Aceites</div>
-                <div>Packs</div>
-                <div>Degustaciones</div>
+            <div className="desktop-navbar-container">
+              <div className="navbar-button-container">
+                <div className="button-desktop-navbar">
+                  <Link to="/">Inicio</Link>
+                </div>
+                <div className="button-desktop-navbar">
+                  <Link to="Catalogo">Productos</Link>
+                </div>
+                <div className="button-desktop-navbar">
+                  <Link to="/Quienes-Somos">Quienes Somos</Link>
+                </div>
+                <div className="button-desktop-navbar">
+                  <Link to="/contacto">Contacto</Link>
+                </div>
               </div>
             </div>
-          </nav>
-        </div>
+            <div className="carrito-container space-between">
+              <Link to="/Cart">
+                <div className="carrito">
+                  <div className="carrito-item-cont">
+                    <img
+                      src={bolso}
+                      alt="bolso compras"
+                      className="carrito-compras"
+                    />
+                    <span className="cont">0</span>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </nav>
       </header>
     </div>
   );
 };
 
-export default BurgerNavbar;
+export default DesktopNavbar;
