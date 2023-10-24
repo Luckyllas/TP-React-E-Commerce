@@ -1,78 +1,53 @@
 import React from "react";
+import { imageCarrucel } from "../helpers/ImagesDirectory";
 
 const Carrucel = () => {
-
-
   return (
     <div
-      id="carousel-principal"
-      className="carousel slide"
+      id="carouselAutoplaying"
+      class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div className="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carousel-principal"
-          data-bs-slide-to="0"
-          className="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carousel-principal"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carousel-principal"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-
-      <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="1000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <img
-           src={require(`../image/Carrucel/1.webp`)}           
-            className="d-block w-100"
+            src={imageCarrucel(`./1.webp`)}
+            class="d-block w-100"
             alt="..."
           />
         </div>
-        <div className="carousel-item">
+        <div class="carousel-item">
           <img
-            src={require(`../image/Carrucel/2.webp`)}
-            className="d-block w-100"
+            src={imageCarrucel(`./2.webp`)}
+            class="d-block w-100"
             alt="..."
           />
         </div>
-        <div className="carousel-item">
+        <div class="carousel-item">
           <img
-            src={require(`../image/Carrucel/3.webp`)}
-            className="d-block w-100"
+            src={imageCarrucel(`./3.webp`)}
+            class="d-block w-100"
             alt="..."
           />
         </div>
       </div>
-
       <button
-        className="carousel-control-prev"
+        class="carousel-control-prev"
         type="button"
-        data-bs-target="#carousel-principal"
+        data-bs-target="#carouselAutoplaying"
         data-bs-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
       <button
-        className="carousel-control-next"
+        class="carousel-control-next"
         type="button"
-        data-bs-target="#carousel-principal"
+        data-bs-target="#carouselAutoplaying"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
   );

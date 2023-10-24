@@ -8,34 +8,29 @@ const Product = ({ product, addToCart }) => {
 
   return (
     <Fragment key={id}>
-      <div className=" col-auto">
-        <div className="card">
-          <img
-            src={imageProduct(`./${ img }`)}
-            alt={etiqueta}
-            className="card-image"
-          /> 
-          <figcaption>
-            <ul className="card-data">
-              <li>
-                <span className="card-data-titulo">{etiqueta}</span>
-              </li>
-              <li>
-                <span className="card-data-precio">$ {precio}</span>
-              </li>
-              <li>
-                <button
-                  onClick={() => addToCart(id)}
-                  className="card-button-compra"
-                >
-                  Agregar al Carrito
-                </button>
-              </li>
-            </ul>
-          </figcaption>
+    <div className="col w-150">
+      <div className="card">
+        <img
+          src={imageProduct(`./${img}`)}
+          alt={etiqueta}
+          className="card-img-top"
+        />
+        <div className="card-body w-100 h-50">
+          <p className="card-title">{etiqueta}</p>
+        </div>
+        <div className="card-body w-80 row align-items-center">
+          <h4 className="card-text col">$ {precio}</h4>
+          <button
+            type="button"
+            className="btn btn-outline-light btn-lg col-3 pb-3"
+            onClick={() => addToCart(id)}
+          >
+            <i className="bi bi-cart"></i>
+          </button>
         </div>
       </div>
-    </Fragment>
+    </div>
+  </Fragment>
   );
 };
 
