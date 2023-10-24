@@ -1,8 +1,6 @@
 import React from "react";
 
 const Carrucel = () => {
-
-
   return (
     <div
       id="carousel-principal"
@@ -12,10 +10,10 @@ const Carrucel = () => {
       <div className="carousel-indicators">
         <button
           type="button"
-          data-bs-target="#carousel-principal"
-          data-bs-slide-to="0"
+          data-bs-target="#carousel-principal"          
           className="active"
           aria-current="true"
+          data-bs-slide-to="0"
           aria-label="Slide 1"
         ></button>
         <button

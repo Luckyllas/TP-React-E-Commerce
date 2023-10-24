@@ -12,7 +12,7 @@ const Login = () => {
       <p>¿Olvidaste tu contraseña?</p>
       <button className="button">Iniciar Sesion</button>
       <p>¿No tenés cuenta?</p>
-      <a>Crear Cuenta</a>
+      <a href="#">Crear Cuenta</a>
     </div>
   );
 };

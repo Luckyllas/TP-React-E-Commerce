@@ -50,13 +50,12 @@ const Cart = () => {
         cantidad: 0,
       });
       productoCart = state.cart.find((item) => item.id === id);
-      
+
       if (productoCart.cantidad > 0) {
         console.log(productoCart.cantidad);
         axios.delete("http://localhost:8080/carrito/" + productoCart.id);
       }
-    } else {     
-
+    } else {
       dispatch({ type: TYPES.REMOVE_ITEM, payload: id });
 
       let productoCart = state.cart.find((item) => item.id === id);
@@ -72,7 +71,7 @@ const Cart = () => {
       });
       productoCart = state.cart.find((item) => item.id === id);
       console.log("antes del if " + productoCart.cantidad);
-      if (productoCart.cantidad === 1) {        
+      if (productoCart.cantidad === 1) {
         axios.delete("http://localhost:8080/carrito/" + productoCart.id);
       }
     }
@@ -86,7 +85,7 @@ const Cart = () => {
         axios.delete("http://localhost:8080/carrito/" + item.id);
       });
     }
-  }; //vacia el carrito  
+  }; //vacia el carrito
 
   const titulo = "Carrito de Compras";
   return (
@@ -97,14 +96,12 @@ const Cart = () => {
           <CartItem
             key={item.id}
             item={item}
-            removeItems={(removeItems)}
-            addToCart={(addToCart)}  
-          // totalPagar={totalPagar+item.subtotalPagar}          
+            removeItems={removeItems}
+            addToCart={addToCart}           
           />
-          
         ))}
       </div>
-      <div>
+      <div className="mb-4 mx-auto">
         {state.cart.length > 0 && (
           <button onClick={clearToCart} className="btn btn-danger btn-sm">
             Vaciar Carrito

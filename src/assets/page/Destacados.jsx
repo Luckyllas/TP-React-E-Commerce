@@ -5,7 +5,7 @@ import TituloPricipal from "../components/TituloPrincipal";
 import { TYPES } from "../actions/Types";
 import axios from "axios";
 
-const Catalogo = () => {
+const Destacados = () => {
   const [state, dispatch] = useReducer(cartReducer, cartInitialState);
 
   const updateProducts = async () => {
@@ -68,11 +68,8 @@ const Catalogo = () => {
               addToCart={addToCart}
             />
           ))}
-
-        
       </div>
     </div>
   );
 };
-
-export default Catalogo;
+export default Destacados;

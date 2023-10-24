@@ -52,7 +52,7 @@ const Catalogo = () => {
       });
      }    
   }; // funcion de agregar un producto al carrito
-const titulo = "Catalogo";
+const titulo = "Vinos Argentinos";
   return (
     <div className="container">
       <TituloPrincipal titulo= {titulo} />

@@ -11,7 +11,7 @@
       "precio": 18400,
       "destacado": false,
       "stock": 5
-    },    
+    },
     {
       "id": 2,
       "img": "alpasionGrandCabFranc.png",
@@ -83,7 +83,7 @@
       "precio": 11940,
       "destacado": false,
       "stock": 5
-    },    
+    },
     {
       "id": 8,
       "img": "baron-b-rose.webp",
@@ -108,7 +108,6 @@
       "destacado": false,
       "stock": 5
     },
-    
     {
       "id": 10,
       "img": "de-mono-rojo-premium-blend.webp",
@@ -145,7 +144,6 @@
       "destacado": false,
       "stock": 3
     },
-    
     {
       "id": 13,
       "img": "el-enemigo-chardonnay.webp",
@@ -194,7 +192,6 @@
       "destacado": false,
       "stock": 20
     },
-    
     {
       "id": 17,
       "img": "gran-enemigo-gualtallary.webp",
@@ -231,7 +228,6 @@
       "destacado": false,
       "stock": 5
     },
-    
     {
       "id": 20,
       "img": "imperfecto.png",
@@ -316,7 +312,6 @@
       "destacado": true,
       "stock": 3
     },
-    
     {
       "id": 27,
       "img": "pulenta-gran-corte.png",
@@ -390,48 +385,5 @@
       "stock": 2
     }
   ],
-  "carrito": [
-    {
-      "id": 2,
-      "img": "alpasionGrandCabFranc.png",
-      "bodega": "Alpasion",
-      "etiqueta": "Alpasion Grand Cabernet Franc",
-      "uva": "Cabernet Franc",
-      "region": "Mendoza",
-      "tipo": "tinto",
-      "precio": 17900,
-      "destacado": true,
-      "stock": 10,
-      "cantidad": 2,
-      "subtotal": 35800
-    },
-    {
-      "id": 14,
-      "img": "enemigo-bonarda.png",
-      "Bodega": "Aleanna",
-      "etiqueta": "El Enemigo Bonarda",
-      "uva": "Bonarda",
-      "region": "Mendoza",
-      "tipo": "tinto",
-      "precio": 12100,
-      "destacado": true,
-      "stock": 9,
-      "cantidad": 1,
-      "subtotal": 12100
-    },
-    {
-      "id": 19,
-      "img": "gran-enemigo-vineyard-agrelo.png",
-      "Bodega": "Aleanna",
-      "etiqueta": "Gran Enemigo Vinayard Agrelo",
-      "uva": "Cabernet Franc",
-      "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": 24400,
-      "destacado": true,
-      "stock": 2,
-      "cantidad": 1,
-      "subtotal": 24400
-    }
-  ]
+  "carrito": []
 }
