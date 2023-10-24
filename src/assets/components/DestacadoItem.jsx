@@ -3,30 +3,35 @@ import "../css/Product.css";
 import { imageProduct } from "../helpers/ImagesDirectory";
 
 const Product = ({ product, addToCart }) => {
-  const { id, img, precio, etiqueta } = product;
-
+  const { id, img, precio, etiqueta, destacado } = product;
+  
   return (
-    <Fragment key={id}>
-      <div className="col w-200">
+    <Fragment key={id}>      
+      <div className=" col-auto">
         <div className="card">
           <img
             src={imageProduct(`./${img}`)}
             alt={etiqueta}
-            className="card-img-top"
+            className="card-image"
           />
-          <div className="card-body w-100">
-            <p className="card-title">{etiqueta}</p>
-          </div>
-          <div className="card-body w-80 row align-items-center">
-            <h4 className="card-text col">$ {precio}</h4>
-            <button
-              type="button"
-              className="btn btn-outline-light btn-lg col-3 pb-3"
-              onClick={() => addToCart(id)}
-            >
-              <i className="bi bi-cart"></i>
-            </button>
-          </div>
+          <figcaption>
+            <ul className="card-data">
+              <li>
+                <span className="card-data-titulo">{etiqueta}</span>
+              </li>
+              <li>
+                <span className="card-data-precio">$ {precio}</span>
+              </li>
+              <li>
+                <button
+                  onClick={() => addToCart(id)}
+                  className="card-button-compra"
+                >
+                  Agregar al Carrito
+                </button>
+              </li>
+            </ul>
+          </figcaption>
         </div>
       </div>
     </Fragment>

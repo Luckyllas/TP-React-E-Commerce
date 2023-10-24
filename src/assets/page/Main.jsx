@@ -6,7 +6,7 @@ import Destacados from "../page/Destacados";
 
 const Main = () => {
   return (
-    <main >
+    <main>
       <Carrucel />
       <Banner />
       <Destacados />
