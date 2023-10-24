@@ -1,6 +1,6 @@
 import "../css/Header.css";
-import DesktopNavbar from "../components/Desktop-navbar";
-import BurgerNavbar from "../components/Burger-navbar";
+import DesktopNavbar from "../components/Desktop-Navbar";
+import BurgerNavbar from "../components/Burger-Navbar";
 import "../css/Desktop-Navbar.css";
 import "../css/Burger-Navbar.css";
 

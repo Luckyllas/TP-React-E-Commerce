@@ -2,16 +2,16 @@
   "productos": [
     {
       "id": 1,
-      "img": "achavalQuimera.png",
-      "bodega": "Achaval Ferrer",
-      "etiqueta": "Quimera",
-      "uva": "Blend",
+      "img": "gran-enemigo-cab-franc.webp",
+      "Bodega": "Aleanna",
+      "etiqueta": "Gran Enemigo Cabernet Franc",
+      "uva": "Cabernet Franc",
       "region": "Mendoza",
-      "tipo": "tinto",
-      "precio": 18000,
+      "tipo": "Tinto",
+      "precio": 18400,
       "destacado": false,
-      "stock": 20
-    },
+      "stock": 5
+    },    
     {
       "id": 2,
       "img": "alpasionGrandCabFranc.png",
@@ -38,42 +38,18 @@
     },
     {
       "id": 4,
-      "img": "angelica-malbec.webp",
-      "Bodega": "Catena Zapata",
-      "etiqueta": "Angelica Zapata Malbec",
-      "uva": "Malbec",
+      "img": "gran-enemigo-vineyard-agrelo.png",
+      "Bodega": "Aleanna",
+      "etiqueta": "Gran Enemigo Vinayard Agrelo",
+      "uva": "Cabernet Franc",
       "region": "Mendoza",
-      "tipo": "tinto",
-      "precio": 18200,
-      "destacado": false,
-      "stock": 5
+      "tipo": "Tinto",
+      "precio": 24400,
+      "destacado": true,
+      "stock": 2
     },
     {
       "id": 5,
-      "img": "angelica-zapata-chardonnay.webp",
-      "Bodega": "Catena Zapata",
-      "etiqueta": "Angelica Zapata Chardonnay",
-      "uva": "Chardonnay",
-      "region": "Mendoza",
-      "tipo": "Blanco",
-      "precio": 11600,
-      "destacado": false,
-      "stock": 3
-    },
-    {
-      "id": 6,
-      "img": "baron-b-canva1.webp",
-      "Bodega": "Chandon",
-      "etiqueta": "Baron B Heritage Assamble",
-      "uva": "Chardonnay/Pinot Noir",
-      "region": "Mendoza",
-      "tipo": "Espumante",
-      "precio": 22570,
-      "destacado": false,
-      "stock": 5
-    },
-    {
-      "id": 7,
       "img": "baron-b-extra-brut.webp",
       "Bodega": "Chandon",
       "etiqueta": "Baron B Extra Brut",
@@ -84,6 +60,30 @@
       "destacado": false,
       "stock": 7
     },
+    {
+      "id": 6,
+      "img": "cheval-des-andes.png",
+      "Bodega": "Cheval Des Andes",
+      "etiqueta": "Cheval Des Andes",
+      "uva": "Blend",
+      "region": "Mendoza",
+      "tipo": "Tinto",
+      "precio": 42850,
+      "destacado": false,
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "img": "decero-malbec.png",
+      "Bodega": "Finca Decero",
+      "etiqueta": "Decero Malbec",
+      "uva": "Malbec",
+      "region": "Mendoza",
+      "tipo": "Tinto",
+      "precio": 11940,
+      "destacado": false,
+      "stock": 5
+    },    
     {
       "id": 8,
       "img": "baron-b-rose.webp",
@@ -98,16 +98,17 @@
     },
     {
       "id": 9,
-      "img": "cheval-des-andes.png",
-      "Bodega": "Cheval Des Andes",
-      "etiqueta": "Cheval Des Andes",
-      "uva": "Blend",
+      "img": "baron-b-canva1.webp",
+      "Bodega": "Chandon",
+      "etiqueta": "Baron B Heritage Assamble",
+      "uva": "Chardonnay/Pinot Noir",
       "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": 42850,
+      "tipo": "Espumante",
+      "precio": 22570,
       "destacado": false,
-      "stock": 15
+      "stock": 5
     },
+    
     {
       "id": 10,
       "img": "de-mono-rojo-premium-blend.webp",
@@ -128,22 +129,23 @@
       "uva": "Blend",
       "region": "Mendoza",
       "tipo": "Tinto",
-      "precio": 5.7,
+      "precio": 5700,
       "destacado": false,
       "stock": 0
     },
     {
       "id": 12,
-      "img": "decero-malbec.png",
-      "Bodega": "Finca Decero",
-      "etiqueta": "Decero Malbec",
-      "uva": "Malbec",
+      "img": "angelica-zapata-chardonnay.webp",
+      "Bodega": "Catena Zapata",
+      "etiqueta": "Angelica Zapata Chardonnay",
+      "uva": "Chardonnay",
       "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": 11940,
+      "tipo": "Blanco",
+      "precio": 11600,
       "destacado": false,
-      "stock": 5
+      "stock": 3
     },
+    
     {
       "id": 13,
       "img": "el-enemigo-chardonnay.webp",
@@ -182,16 +184,17 @@
     },
     {
       "id": 16,
-      "img": "gran-enemigo-cab-franc.webp",
-      "Bodega": "Aleanna",
-      "etiqueta": "Gran Enemigo Cabernet Franc",
-      "uva": "Cabernet Franc",
+      "img": "achavalQuimera.png",
+      "bodega": "Achaval Ferrer",
+      "etiqueta": "Quimera",
+      "uva": "Blend",
       "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": 18400,
+      "tipo": "tinto",
+      "precio": 18000,
       "destacado": false,
-      "stock": 5
+      "stock": 20
     },
+    
     {
       "id": 17,
       "img": "gran-enemigo-gualtallary.webp",
@@ -218,16 +221,17 @@
     },
     {
       "id": 19,
-      "img": "gran-enemigo-vineyard-agrelo.png",
-      "Bodega": "Aleanna",
-      "etiqueta": "Gran Enemigo Vinayard Agrelo",
-      "uva": "Cabernet Franc",
+      "img": "angelica-malbec.webp",
+      "Bodega": "Catena Zapata",
+      "etiqueta": "Angelica Zapata Malbec",
+      "uva": "Malbec",
       "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": 24400,
-      "destacado": true,
-      "stock": 2
+      "tipo": "tinto",
+      "precio": 18200,
+      "destacado": false,
+      "stock": 5
     },
+    
     {
       "id": 20,
       "img": "imperfecto.png",
@@ -302,16 +306,17 @@
     },
     {
       "id": 26,
-      "img": "pulenta-gran-cabernet.webp",
-      "Bodega": "Pulenta State",
-      "etiqueta": "Pulenta State Grand Cabernet Franc",
-      "uva": "Cabernet Franc",
+      "img": "rosell-boher-rose.png",
+      "Bodega": "Rosell Boher",
+      "etiqueta": "Rosell Boher Rose",
+      "uva": "Blend",
       "region": "Mendoza",
-      "tipo": "Tinto",
-      "precio": 32100,
-      "destacado": false,
-      "stock": 2
+      "tipo": "Espumante",
+      "precio": 18500,
+      "destacado": true,
+      "stock": 3
     },
+    
     {
       "id": 27,
       "img": "pulenta-gran-corte.png",
@@ -338,15 +343,15 @@
     },
     {
       "id": 29,
-      "img": "rosell-boher-rose.png",
-      "Bodega": "Rosell Boher",
-      "etiqueta": "Rosell Boher Rose",
-      "uva": "Blend",
+      "img": "pulenta-gran-cabernet.webp",
+      "Bodega": "Pulenta State",
+      "etiqueta": "Pulenta State Grand Cabernet Franc",
+      "uva": "Cabernet Franc",
       "region": "Mendoza",
-      "tipo": "Espumante",
-      "precio": 18500,
-      "destacado": true,
-      "stock": 3
+      "tipo": "Tinto",
+      "precio": 32100,
+      "destacado": false,
+      "stock": 2
     },
     {
       "id": 30,
@@ -399,6 +404,34 @@
       "stock": 10,
       "cantidad": 2,
       "subtotal": 35800
+    },
+    {
+      "id": 14,
+      "img": "enemigo-bonarda.png",
+      "Bodega": "Aleanna",
+      "etiqueta": "El Enemigo Bonarda",
+      "uva": "Bonarda",
+      "region": "Mendoza",
+      "tipo": "tinto",
+      "precio": 12100,
+      "destacado": true,
+      "stock": 9,
+      "cantidad": 1,
+      "subtotal": 12100
+    },
+    {
+      "id": 19,
+      "img": "gran-enemigo-vineyard-agrelo.png",
+      "Bodega": "Aleanna",
+      "etiqueta": "Gran Enemigo Vinayard Agrelo",
+      "uva": "Cabernet Franc",
+      "region": "Mendoza",
+      "tipo": "Tinto",
+      "precio": 24400,
+      "destacado": true,
+      "stock": 2,
+      "cantidad": 1,
+      "subtotal": 24400
     }
   ]
 }

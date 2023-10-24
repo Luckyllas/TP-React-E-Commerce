@@ -59,9 +59,17 @@ const Catalogo = () => {
     <div className="container">
       <TituloPricipal titulo={titulo} />
       <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
-        {state.products.map((producto) => (         
-          <Product key={producto.id}  product={producto} addToCart={addToCart} />
-        ))}
+        {state.products
+          .filter((producto) => producto.destacado)
+          .map((producto) => (
+            <Product
+              key={producto.id}
+              product={producto}
+              addToCart={addToCart}
+            />
+          ))}
+
+        
       </div>
     </div>
   );

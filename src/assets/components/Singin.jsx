@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Singin.css";
-import { Link } from "react-router-dom";
 
 const Singin = () => {
   return (
@@ -18,9 +17,7 @@ const Singin = () => {
       <input className="input" type="password" required></input>
       <button className="button">Crear Cuenta</button>
       <p>¿Ya tenés una cuenta?</p>
-      <div>
-        <Link to="/Login">Iniciar Sesion</Link>
-      </div>
+      <a>Iniciar Sesion</a>
     </div>
   );
 };
