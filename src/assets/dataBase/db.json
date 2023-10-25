@@ -385,6 +385,30 @@
       "stock": 2
     }
   ],
+  "carrucel": [
+    {
+      "id": 1,
+      "img": "img1.webp"
+    },
+    {
+      "id": 2,
+      "img": "img2.webp"
+    },
+    {
+      "id": 3,
+      "img": "img3.webp"
+    }
+  ],
+  "detacados":[
+    {
+      "id": 1,
+      "img": "img1.webp"
+    },
+    {
+      "id": 2,
+      "img": "img2.webp"
+    }
+],
   "carrito": [
     {
       "id": 2,

@@ -4,44 +4,41 @@ import { imageProduct } from "../helpers/ImagesDirectory";
 const CartItem = ({ item, removeItems, addToCart }) => {
   const { id, img, etiqueta, precio, cantidad, subtotal } = item;
 
+   //Funcion reductora calcula el subtotal de cada producto
+  const initialState = {
+    subtot: subtotal,
+  };
   
- 
-    const initialState = {
-      subtot : subtotal,
-    };
-  
-    //Funcion reductora
-    const ContadorReducer = (state, action) => {
-      switch (action.type) {
-        case "Incrementar":
-          return { subtot: state.subtot + precio };
-        case "Decrementar":
-          return { subtot: state.subtot - precio };
-        default:
-          return state;
-      }
-    };  
+  const ContadorReducer = (state, action) => {
+    switch (action.type) {
+      case "Incrementar":
+        return { subtot: state.subtot + precio };
+      case "Decrementar":
+        return { subtot: state.subtot - precio };
+      default:
+        return state;
+    }
+  };
 
-    const [state, dispatch] = useReducer(ContadorReducer, initialState);
+  const [state, dispatch] = useReducer(ContadorReducer, initialState);
 
-  
-    const aumentarHandle = () => {
-      dispatch({ type: "Incrementar" });
-    };
-  
-    const decrementarHandle = () => {
-      dispatch({ type: "Decrementar" });
-    };
+  const aumentarHandle = () => {
+    dispatch({ type: "Incrementar" });
+  };
 
-    function aumentar(){
-      aumentarHandle();
-      addToCart(id);
-    };
+  const decrementarHandle = () => {
+    dispatch({ type: "Decrementar" });
+  };
 
-    function reducir(){
-      decrementarHandle();
-      removeItems(id, false);
-    };
+  function aumentar() {
+    aumentarHandle();
+    addToCart(id);
+  }
+
+  function reducir() {
+    decrementarHandle();
+    removeItems(id, false);
+  }
 
   return (
     <Fragment key={id}>
