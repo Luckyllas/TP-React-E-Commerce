@@ -45,7 +45,7 @@ const CartItem = ({ item, removeItems, addToCart }) => {
 
   return (
     <Fragment key={id}>
-      <div className="card text-center mb-3 ">
+      <div className="card text-center mb-3">
         <img
           src={imageProduct(`./${img}`)}
           alt={etiqueta}

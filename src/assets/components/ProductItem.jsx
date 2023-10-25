@@ -8,7 +8,7 @@ const Product = ({ product, addToCart }) => {
 
   return (
     <Fragment key={id}>
-      <div className="card text-center mb-3 ">
+      <div className="card text-center mb-3 h-150 ">
         <img
           src={imageProduct(`./${img}`)}
           alt={etiqueta}

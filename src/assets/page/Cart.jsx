@@ -31,7 +31,6 @@ const Cart = () => {
 
     let total = productoCart.cantidad + 1;
     let subtotalPagar = total * productoCart.precio;
-    console.log(subtotalPagar);
 
     await axios.put("http://localhost:8080/carrito/" + productoCart.id, {
       ...productoCart,
@@ -52,7 +51,6 @@ const Cart = () => {
       productoCart = state.cart.find((item) => item.id === id);
 
       if (productoCart.cantidad > 0) {
-        console.log(productoCart.cantidad);
         axios.delete("http://localhost:8080/carrito/" + productoCart.id);
       }
     } else {
@@ -70,7 +68,6 @@ const Cart = () => {
         subtotal: subtotalPagar,
       });
       productoCart = state.cart.find((item) => item.id === id);
-      console.log("antes del if " + productoCart.cantidad);
       if (productoCart.cantidad === 1) {
         axios.delete("http://localhost:8080/carrito/" + productoCart.id);
       }
@@ -97,7 +94,7 @@ const Cart = () => {
             key={item.id}
             item={item}
             removeItems={removeItems}
-            addToCart={addToCart}           
+            addToCart={addToCart}
           />
         ))}
       </div>
@@ -107,9 +104,6 @@ const Cart = () => {
             Vaciar Carrito
           </button>
         )}
-      </div>
-      <div>
-        
       </div>
     </div>
   );

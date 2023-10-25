@@ -381,9 +381,24 @@
       "region": "Mendoza",
       "tipo": "Tinto",
       "precio": 40200,
-      "destacado": false,
+      "destacado": true,
       "stock": 2
     }
   ],
-  "carrito": []
+  "carrito": [
+    {
+      "id": 2,
+      "img": "alpasionGrandCabFranc.png",
+      "bodega": "Alpasion",
+      "etiqueta": "Alpasion Grand Cabernet Franc",
+      "uva": "Cabernet Franc",
+      "region": "Mendoza",
+      "tipo": "tinto",
+      "precio": 17900,
+      "destacado": true,
+      "stock": 10,
+      "cantidad": 1,
+      "subtotal": 17900
+    }
+  ]
 }
