@@ -34,7 +34,7 @@ const Contacto = () => {
               ></textarea>
             </label>
           </fieldset>
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Enviar" />
         </form>
       </div>
     </div>
