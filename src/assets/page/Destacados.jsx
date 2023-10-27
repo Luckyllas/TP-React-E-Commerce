@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer } from "react";
 import { cartInitialState, cartReducer } from "../reducers/CartReducer";
 import Product from "../components/DestacadoItem";
-import TituloPricipal from "../components/TituloPrincipal";
+import Titulo from "../components/Titulo";
 import { TYPES } from "../actions/Types";
 import axios from "axios";
 
@@ -57,7 +57,7 @@ const Destacados = () => {
 
   return (
     <div className="container">
-      <TituloPricipal titulo={titulo} />
+      <Titulo titulo={titulo} />
       <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
         {state.products
           .filter((producto) => producto.destacado)

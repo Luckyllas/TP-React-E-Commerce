@@ -1,27 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "../page/Main";
-import Header from "../page/Header";
-import Footer from "../page/Footer";
 import Catalogo from "../page/Catalogo";
 import Cart from "../page/Cart";
-import Login from "../components/Login";
-import Singin from "../components/Singin";
 import Destacados from "../page/Destacados";
 
 const Rutas = () => {
   return (
     <Router>
-      <Header />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/Catalogo" element={<Catalogo />} />
         <Route path="/Destacados" element={<Destacados />} />
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/singin" element={<Singin />} />
+        <Route path="/Cart" element={<Cart />} />        
       </Routes>
-      <Footer />
     </Router>
   );
 };
