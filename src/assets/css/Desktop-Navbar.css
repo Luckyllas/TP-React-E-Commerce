@@ -70,14 +70,7 @@
   height: 50px;
   background-color: #5f0019;
   color: white;
-  justify-content: space-between;
-}
-
-.desktop-search-container {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  justify-self: flex-start;
+  justify-content: center;
 }
 
 .top-bar-button-container {
