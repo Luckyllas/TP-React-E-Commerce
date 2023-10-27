@@ -1,1 +1,0 @@
-aqui van las imagenes del proyecto esta carpeta estara ignorada para que no se suba al repo las imagenes,
