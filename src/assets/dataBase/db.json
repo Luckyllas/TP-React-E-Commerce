@@ -385,20 +385,44 @@
       "stock": 2
     }
   ],
-  "carrito": [
+  "carrucel": [
+    {
+      "id": 1,
+      "img": "img1.webp"
+    },
     {
       "id": 2,
-      "img": "alpasionGrandCabFranc.png",
-      "bodega": "Alpasion",
-      "etiqueta": "Alpasion Grand Cabernet Franc",
+      "img": "img2.webp"
+    },
+    {
+      "id": 3,
+      "img": "img3.webp"
+    }
+  ],
+  "detacados": [
+    {
+      "id": 1,
+      "img": "img1.webp"
+    },
+    {
+      "id": 2,
+      "img": "img2.webp"
+    }
+  ],
+  "carrito": [
+    {
+      "id": 3,
+      "img": "angelica-cab-franc.webp",
+      "Bodega": "Catena Zapata",
+      "etiqueta": " Angelica Zapata Cabernet Franc",
       "uva": "Cabernet Franc",
       "region": "Mendoza",
       "tipo": "tinto",
-      "precio": 17900,
-      "destacado": true,
-      "stock": 10,
-      "cantidad": 1,
-      "subtotal": 17900
+      "precio": 11400,
+      "destacado": false,
+      "stock": 25,
+      "cantidad": 3,
+      "subtotal": 34200
     }
   ]
 }
