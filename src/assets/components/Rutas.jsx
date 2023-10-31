@@ -11,15 +11,12 @@ import Cart from "../page/Cart";
 import Contacto from "../components/Contacto";
 import QuienesSomos from "./Quienes-Somos";
 
-//import Contacto from "../Page/Contacto";
-
 const Rutas = () => {
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        {/*<Route path="/Contacto" element={<Contacto />} />*/}
         <Route path="/login" element={<Login />} />
         <Route path="/singin" element={<Singin />} />
         <Route path="/reset-password" element={<ResetPassword />} />

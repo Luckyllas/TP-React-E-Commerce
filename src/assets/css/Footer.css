@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Mooli&display=swap');
 
-* {
+footer {
     font-family: 'Lato', sans-serif;
+    text-align: center;
     text-transform: uppercase;
     color: #5f0019;
 }
 
 #footer{
-    border-top: 1px solid #fff;;
+    border-top: 1px solid #fff;
+    background-color: #e2e2e2;
 }
 
 #noticiasRedesContacto, #menuFooter, #dataFiscal {
@@ -93,9 +95,6 @@ input {
     width: 3rem;
 }
 
-footer{
-    text-align: center;
-}
 
 #imagenCard {
     width: 44px;

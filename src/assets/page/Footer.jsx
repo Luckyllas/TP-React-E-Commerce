@@ -1,25 +1,25 @@
 import React from "react";
 import "../css/Footer.css";
-import CompraTarjetaEnvios from "../components/footer/compraTarjetaEnvios";
-import NoticiasRedesContacto from "../components/footer/noticiasRedesContacto";
-import Menu from "../components/footer/menu";
+import NoticiasRedesContacto from "../components/noticiasRedesContacto";
+import Menu from "../components/menu";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <section id="compraTarjetaEnvios">
-        <CompraTarjetaEnvios />
-      </section>
-      <section id="noticiasRedesContacto">
+    <footer className="footer bg-secondary-subtle text-emphasis-secondary ">
+      <div>
+        <section >
         <NoticiasRedesContacto />
-      </section>
-      <section id="menuFooter">
-        <Menu />
-      </section>
-      <section id="dataFiscal">
-        <img src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" />
-      </section>
-      <section id="copyright">copyright</section>
+        </section>
+        <section >
+          <Menu />
+        </section>
+      </div>
+      <div>
+        <section id="dataFiscal">
+          <img src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" />
+        </section>
+        <section id="copyright">copyright</section>
+      </div>
     </footer>
   );
 };

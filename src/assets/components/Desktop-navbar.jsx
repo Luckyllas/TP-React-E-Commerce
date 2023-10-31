@@ -8,7 +8,7 @@ const DesktopNavbar = () => {
     <div>
       <header>
         <nav>
-          <div className="top-bar-container">
+          <div className="top-bar-container ">
             <div className="top-bar-button-container">
               <div>
                 <Link to="/Singin">Crear Cuenta</Link>
@@ -18,7 +18,7 @@ const DesktopNavbar = () => {
               </div>
             </div>
           </div>
-          <div className="bot-bar-container">
+          <div className="bot-bar-container row justify-content-center">
             <div className="logo-container">
               <Link to="/">
                 <img src={logo} alt="logo" />

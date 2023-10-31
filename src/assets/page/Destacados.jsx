@@ -1,12 +1,11 @@
 import React, { useEffect, useReducer } from "react";
 import { cartInitialState, cartReducer } from "../reducers/CartReducer";
-import Product from "../components/ProductItem";
+import Product from "../components/DestacadoItem";
 import Titulo from "../components/Titulo";
 import { TYPES } from "../actions/Types";
 import axios from "axios";
-import Banner from "../components/Banner";
 
-const Catalogo = () => {
+const Destacados = () => {
   const [state, dispatch] = useReducer(cartReducer, cartInitialState);
 
   const updateProducts = async () => {
@@ -53,18 +52,24 @@ const Catalogo = () => {
       });
     }
   }; // funcion de agregar un producto al carrito
-  const titulo = "Vinos Argentinos";
+
+  const titulo = "Destacados de la Semana";
+
   return (
     <div className="container">
       <Titulo titulo={titulo} />
       <div className="row row-cols-1 row-cols-md-3 row-cols-xl-4  justify-content-center">
-        {state.products.map((producto) => (
-          <Product key={producto.id} product={producto} addToCart={addToCart} />
-        ))}
+        {state.products
+          .filter((producto) => producto.destacado)
+          .map((producto) => (
+            <Product
+              key={producto.id}
+              product={producto}
+              addToCart={addToCart}
+            />
+          ))}
       </div>
-      <Banner />
     </div>
   );
 };
-
-export default Catalogo;
+export default Destacados;
